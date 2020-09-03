@@ -1,0 +1,6 @@
+framework module CMTabBar {
+  umbrella header "CMTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

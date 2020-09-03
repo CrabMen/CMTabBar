@@ -1,0 +1,16 @@
+PODS:
+  - CMTabBar (0.1.0)
+
+DEPENDENCIES:
+  - CMTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  CMTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMTabBar: c609f039b684e6c5cdaab9be1926473b7399063b
+
+PODFILE CHECKSUM: 5b14b7ec16453abad0bd5f5da85115fa550e1633
+
+COCOAPODS: 1.9.1

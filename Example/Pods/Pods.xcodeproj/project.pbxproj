@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B86C9A0F0323537E87755871C9C0AB6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F37011E50A8C9839479F5468448BC /* ReplaceMe.m */; };
+		2504DBA23FFFA8E1190BF1BC8A18E4DA /* Pods-CMTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B390FC494FE41E934C114F463F5307A2 /* Pods-CMTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		408E989C8EC21137FD9B373E8AD0AADE /* CMTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0A50D57E5BC3AD6410F6B0287A79D8 /* CMTabBar-dummy.m */; };
+		43AA044852A0C3B5FDB192FAE7C22A2E /* Pods-CMTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D81FD4EF58B23F13A7CFCF0E7DEAA0F /* Pods-CMTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA7C04C504F6A7F3D4C7185E5804583 /* CMTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 037034990AAC0AEE7C1F33CDE9B6AE04 /* CMTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D42B755002BFB1E78B80EF144029645 /* Pods-CMTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFF5224C983619E8D2E92452A4CD825 /* Pods-CMTabBar_Tests-dummy.m */; };
+		882507F6CB5762200CE61A9DB8E95DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A494F342872154CF98CF083063B54819 /* Pods-CMTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F423D0D2E3DB9A80A9994C5AE79D0DF4 /* Pods-CMTabBar_Example-dummy.m */; };
+		CAC78D1087064C55B199F22AE0CA201A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D369C9F51255BF6363BBA3235C4B09B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54B2B977D84F660080B3051FEBB5870B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE2662F7174B4FA0917BEBCDBA56FDA;
+			remoteInfo = "Pods-CMTabBar_Example";
+		};
+		9D9899337D7F628EF89E1BB73D75A0B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA121EF7C88AF25D463394B80B5CD7F7;
+			remoteInfo = CMTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009691F082504D7F63494A2B225F6BA5 /* Pods-CMTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMTabBar_Example-Info.plist"; sourceTree = "<group>"; };
+		01E8A855C0CA025378B7FF2FACD36462 /* Pods-CMTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		037034990AAC0AEE7C1F33CDE9B6AE04 /* CMTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMTabBar-umbrella.h"; sourceTree = "<group>"; };
+		094D0640E457D98ED6E0119FC2E93415 /* Pods-CMTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMTabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		0B9AC2BD1A6C2ACEDFDE2BAAA12D4A0D /* Pods-CMTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		11A896FD4862071318C0232C1227378E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		11C50CCC10A9DF4B812BFCA137CD0771 /* Pods-CMTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15EB64A59F5884F5DB9B7CD482DFFA03 /* CMTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CMTabBar.framework; path = CMTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CC3CA92EF59DD0B3D43EBF22B60F71 /* Pods-CMTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		2249A00762139CDE10CC9F66C6C376CC /* Pods-CMTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CMTabBar_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		364F37011E50A8C9839479F5468448BC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CMTabBar/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3BA973FE335B6A046AD16AEBE734E6F8 /* Pods-CMTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E3B9D6D22995F3AD5C562F6399EEB3F /* CMTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CMTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EC7423E7FC1CB228FFB150B4751E78D /* Pods-CMTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CMTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		79689DE557B8DB29726E4E77466B706A /* CMTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMTabBar.debug.xcconfig; sourceTree = "<group>"; };
+		79DE27BB9FF38506A6A391E08BDC4BD9 /* Pods_CMTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMTabBar_Tests.framework; path = "Pods-CMTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849C9B49C99DBE209392906574FA3F5F /* Pods-CMTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CMTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		854E24D0557F9954509C57BABC491D60 /* Pods-CMTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8D81FD4EF58B23F13A7CFCF0E7DEAA0F /* Pods-CMTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8E8E7E18D58E32F0EED300D70350B633 /* CMTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CMTabBar.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF85860A2C48058FA4D88E8994A9E7CC /* Pods_CMTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CMTabBar_Example.framework; path = "Pods-CMTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF99C83F8B0834D94FCEB731F1E2678 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B390FC494FE41E934C114F463F5307A2 /* Pods-CMTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CMTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		C35937F0F00C0519DCA081978440879D /* Pods-CMTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CMTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA0A50D57E5BC3AD6410F6B0287A79D8 /* CMTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMTabBar-dummy.m"; sourceTree = "<group>"; };
+		CFFF69EE56432EC7FA3AAE4C3FF74CE5 /* CMTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMTabBar.release.xcconfig; sourceTree = "<group>"; };
+		D7400F64CC4E976D5039A1C491D4DFA6 /* Pods-CMTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CMTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA7624D574D5A97580284BE5998952FA /* CMTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMTabBar-prefix.pch"; sourceTree = "<group>"; };
+		E2BE68C562EA0F0710801466B295F10A /* CMTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CMTabBar-Info.plist"; sourceTree = "<group>"; };
+		F423D0D2E3DB9A80A9994C5AE79D0DF4 /* Pods-CMTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMTabBar_Example-dummy.m"; sourceTree = "<group>"; };
+		FBFF5224C983619E8D2E92452A4CD825 /* Pods-CMTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CMTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D545BF03CD8D897556C72F2FF654809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D369C9F51255BF6363BBA3235C4B09B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5987CEEDE93659DC7F5D81D91842815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC78D1087064C55B199F22AE0CA201A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF455320808F33D75065816B392BD5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882507F6CB5762200CE61A9DB8E95DB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4672B177C3E17AD01D3BB0596B25A0F5 /* CMTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				364F37011E50A8C9839479F5468448BC /* ReplaceMe.m */,
+				DBE8BD298260F0581484CE343F90CE1A /* Pod */,
+				83FA898ABD9270140D4D1AB72A751CB3 /* Support Files */,
+			);
+			name = CMTabBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7E34509CD17D122C1BF9E0A93CE7CB94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76426794F162945D95965AB195627AA /* Pods-CMTabBar_Example */,
+				B23FE5D04BAA0728F846B6CF1F9FDA17 /* Pods-CMTabBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83FA898ABD9270140D4D1AB72A751CB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8E7E18D58E32F0EED300D70350B633 /* CMTabBar.modulemap */,
+				CA0A50D57E5BC3AD6410F6B0287A79D8 /* CMTabBar-dummy.m */,
+				E2BE68C562EA0F0710801466B295F10A /* CMTabBar-Info.plist */,
+				DA7624D574D5A97580284BE5998952FA /* CMTabBar-prefix.pch */,
+				037034990AAC0AEE7C1F33CDE9B6AE04 /* CMTabBar-umbrella.h */,
+				79689DE557B8DB29726E4E77466B706A /* CMTabBar.debug.xcconfig */,
+				CFFF69EE56432EC7FA3AAE4C3FF74CE5 /* CMTabBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CMTabBar";
+			sourceTree = "<group>";
+		};
+		8D6414ABA9DF5ED36A4B8533A720BFF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EB64A59F5884F5DB9B7CD482DFFA03 /* CMTabBar.framework */,
+				AF85860A2C48058FA4D88E8994A9E7CC /* Pods_CMTabBar_Example.framework */,
+				79DE27BB9FF38506A6A391E08BDC4BD9 /* Pods_CMTabBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F13E3A57A40155F9C01F917EF3961A0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4672B177C3E17AD01D3BB0596B25A0F5 /* CMTabBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B23FE5D04BAA0728F846B6CF1F9FDA17 /* Pods-CMTabBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				094D0640E457D98ED6E0119FC2E93415 /* Pods-CMTabBar_Tests.modulemap */,
+				849C9B49C99DBE209392906574FA3F5F /* Pods-CMTabBar_Tests-acknowledgements.markdown */,
+				0B9AC2BD1A6C2ACEDFDE2BAAA12D4A0D /* Pods-CMTabBar_Tests-acknowledgements.plist */,
+				FBFF5224C983619E8D2E92452A4CD825 /* Pods-CMTabBar_Tests-dummy.m */,
+				16CC3CA92EF59DD0B3D43EBF22B60F71 /* Pods-CMTabBar_Tests-Info.plist */,
+				8D81FD4EF58B23F13A7CFCF0E7DEAA0F /* Pods-CMTabBar_Tests-umbrella.h */,
+				C35937F0F00C0519DCA081978440879D /* Pods-CMTabBar_Tests.debug.xcconfig */,
+				01E8A855C0CA025378B7FF2FACD36462 /* Pods-CMTabBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-CMTabBar_Tests";
+			path = "Target Support Files/Pods-CMTabBar_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C76426794F162945D95965AB195627AA /* Pods-CMTabBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2249A00762139CDE10CC9F66C6C376CC /* Pods-CMTabBar_Example.modulemap */,
+				3BA973FE335B6A046AD16AEBE734E6F8 /* Pods-CMTabBar_Example-acknowledgements.markdown */,
+				D7400F64CC4E976D5039A1C491D4DFA6 /* Pods-CMTabBar_Example-acknowledgements.plist */,
+				F423D0D2E3DB9A80A9994C5AE79D0DF4 /* Pods-CMTabBar_Example-dummy.m */,
+				6EC7423E7FC1CB228FFB150B4751E78D /* Pods-CMTabBar_Example-frameworks.sh */,
+				009691F082504D7F63494A2B225F6BA5 /* Pods-CMTabBar_Example-Info.plist */,
+				B390FC494FE41E934C114F463F5307A2 /* Pods-CMTabBar_Example-umbrella.h */,
+				854E24D0557F9954509C57BABC491D60 /* Pods-CMTabBar_Example.debug.xcconfig */,
+				11C50CCC10A9DF4B812BFCA137CD0771 /* Pods-CMTabBar_Example.release.xcconfig */,
+			);
+			name = "Pods-CMTabBar_Example";
+			path = "Target Support Files/Pods-CMTabBar_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8F13E3A57A40155F9C01F917EF3961A0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8D6414ABA9DF5ED36A4B8533A720BFF7 /* Products */,
+				7E34509CD17D122C1BF9E0A93CE7CB94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE8BD298260F0581484CE343F90CE1A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B9D6D22995F3AD5C562F6399EEB3F /* CMTabBar.podspec */,
+				AFF99C83F8B0834D94FCEB731F1E2678 /* LICENSE */,
+				11A896FD4862071318C0232C1227378E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E612E0450198A914E4E8278241E9211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AA044852A0C3B5FDB192FAE7C22A2E /* Pods-CMTabBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A1B8E4EA3C175635E567DD85F8722A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7C04C504F6A7F3D4C7185E5804583 /* CMTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD14995D3B48D931057CC68F12AB4620 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2504DBA23FFFA8E1190BF1BC8A18E4DA /* Pods-CMTabBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EE2662F7174B4FA0917BEBCDBA56FDA /* Pods-CMTabBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EBC10EF6B2924D5A491F19A98735E1 /* Build configuration list for PBXNativeTarget "Pods-CMTabBar_Example" */;
+			buildPhases = (
+				AD14995D3B48D931057CC68F12AB4620 /* Headers */,
+				7CA7C035161DD865A7BC2DF8A165994F /* Sources */,
+				7D545BF03CD8D897556C72F2FF654809 /* Frameworks */,
+				E184F36AA161699E950F3E0EF4588491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E522A418D1FFE85C6BB02FAFC01ECEB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-CMTabBar_Example";
+			productName = "Pods-CMTabBar_Example";
+			productReference = AF85860A2C48058FA4D88E8994A9E7CC /* Pods_CMTabBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA121EF7C88AF25D463394B80B5CD7F7 /* CMTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4190D83562964A6E58E74A09B72F5D /* Build configuration list for PBXNativeTarget "CMTabBar" */;
+			buildPhases = (
+				18A1B8E4EA3C175635E567DD85F8722A /* Headers */,
+				1D30DD902EC46051D40D2DFCC9E3D11E /* Sources */,
+				A5987CEEDE93659DC7F5D81D91842815 /* Frameworks */,
+				309FDA984B5D227BEFF1587793D35971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMTabBar;
+			productName = CMTabBar;
+			productReference = 15EB64A59F5884F5DB9B7CD482DFFA03 /* CMTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3D747ADAB58ABBE3225C46A2E955E5F /* Pods-CMTabBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB94DDD958A94D15193963D4DC41FF07 /* Build configuration list for PBXNativeTarget "Pods-CMTabBar_Tests" */;
+			buildPhases = (
+				0E612E0450198A914E4E8278241E9211 /* Headers */,
+				CE70ECE30815C714E07871F517A5B055 /* Sources */,
+				DF455320808F33D75065816B392BD5E2 /* Frameworks */,
+				B4515EE87EDA890C99DD1CE4D871BDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4EAD0E02D8CA505028ABAEA6AC8B0A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CMTabBar_Tests";
+			productName = "Pods-CMTabBar_Tests";
+			productReference = 79DE27BB9FF38506A6A391E08BDC4BD9 /* Pods_CMTabBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8D6414ABA9DF5ED36A4B8533A720BFF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA121EF7C88AF25D463394B80B5CD7F7 /* CMTabBar */,
+				3EE2662F7174B4FA0917BEBCDBA56FDA /* Pods-CMTabBar_Example */,
+				F3D747ADAB58ABBE3225C46A2E955E5F /* Pods-CMTabBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309FDA984B5D227BEFF1587793D35971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4515EE87EDA890C99DD1CE4D871BDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E184F36AA161699E950F3E0EF4588491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D30DD902EC46051D40D2DFCC9E3D11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408E989C8EC21137FD9B373E8AD0AADE /* CMTabBar-dummy.m in Sources */,
+				0B86C9A0F0323537E87755871C9C0AB6 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA7C035161DD865A7BC2DF8A165994F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A494F342872154CF98CF083063B54819 /* Pods-CMTabBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE70ECE30815C714E07871F517A5B055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D42B755002BFB1E78B80EF144029645 /* Pods-CMTabBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E522A418D1FFE85C6BB02FAFC01ECEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CMTabBar;
+			target = CA121EF7C88AF25D463394B80B5CD7F7 /* CMTabBar */;
+			targetProxy = 9D9899337D7F628EF89E1BB73D75A0B1 /* PBXContainerItemProxy */;
+		};
+		F4EAD0E02D8CA505028ABAEA6AC8B0A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CMTabBar_Example";
+			target = 3EE2662F7174B4FA0917BEBCDBA56FDA /* Pods-CMTabBar_Example */;
+			targetProxy = 54B2B977D84F660080B3051FEBB5870B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3328EA341C68002A39646B4A6A754BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C50CCC10A9DF4B812BFCA137CD0771 /* Pods-CMTabBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMTabBar_Example/Pods-CMTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMTabBar_Example/Pods-CMTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6696B7754D901A01295D44D67D8E7F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854E24D0557F9954509C57BABC491D60 /* Pods-CMTabBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMTabBar_Example/Pods-CMTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMTabBar_Example/Pods-CMTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A021980058D4C7F316C0807FBFA7F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E8A855C0CA025378B7FF2FACD36462 /* Pods-CMTabBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMTabBar_Tests/Pods-CMTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMTabBar_Tests/Pods-CMTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8EFC763388CBE9D99457CB875D67B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFF69EE56432EC7FA3AAE4C3FF74CE5 /* CMTabBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CMTabBar/CMTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMTabBar/CMTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMTabBar/CMTabBar.modulemap";
+				PRODUCT_MODULE_NAME = CMTabBar;
+				PRODUCT_NAME = CMTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA0B25FF8E0EAA54ADBBE3A241819EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79689DE557B8DB29726E4E77466B706A /* CMTabBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CMTabBar/CMTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CMTabBar/CMTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CMTabBar/CMTabBar.modulemap";
+				PRODUCT_MODULE_NAME = CMTabBar;
+				PRODUCT_NAME = CMTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4DA1D9A5CFA0738DC884B9D5C0BD3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35937F0F00C0519DCA081978440879D /* Pods-CMTabBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CMTabBar_Tests/Pods-CMTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CMTabBar_Tests/Pods-CMTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4190D83562964A6E58E74A09B72F5D /* Build configuration list for PBXNativeTarget "CMTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0B25FF8E0EAA54ADBBE3A241819EC4 /* Debug */,
+				D8EFC763388CBE9D99457CB875D67B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EBC10EF6B2924D5A491F19A98735E1 /* Build configuration list for PBXNativeTarget "Pods-CMTabBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6696B7754D901A01295D44D67D8E7F1D /* Debug */,
+				3328EA341C68002A39646B4A6A754BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB94DDD958A94D15193963D4DC41FF07 /* Build configuration list for PBXNativeTarget "Pods-CMTabBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DA1D9A5CFA0738DC884B9D5C0BD3AD /* Debug */,
+				9A021980058D4C7F316C0807FBFA7F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

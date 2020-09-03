@@ -1,0 +1,22 @@
+{
+  "name": "CMTabBar",
+  "version": "0.1.0",
+  "summary": "A short description of CMTabBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CrabMen/CMTabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CrabMen": "guoqiang@golimitless.cn"
+  },
+  "source": {
+    "git": "https://github.com/CrabMen/CMTabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CMTabBar/Classes/**/*"
+}
